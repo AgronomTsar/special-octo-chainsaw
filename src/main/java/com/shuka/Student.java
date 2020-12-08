@@ -6,6 +6,10 @@ public class Student {
     String sex;
     String birthday;
     double gpa;
+    public Student(){
+
+    }
+
 
     public Student(String fname, String lname, String sex, String birthday, double gpa) {
         this.fname = fname;
